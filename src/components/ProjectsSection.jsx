@@ -3,12 +3,12 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "E-Lib Manager",
+    description: "E-library system for seamless book and user management.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    tags: ["React", "TailwindCSS", "JavaScript","Node.js", "Express.js", "MongoDB","Redux"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://github.com/tushar11kumar2001/library-management-system",
   },
   {
     id: 2,
@@ -22,13 +22,13 @@ const projects = [
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "PlayFlix",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "A Netflix-inspired streaming platform clone featuring movie trailers, dynamic UI, and real-time data using TMDB API and Google Gemini for smart suggestions.",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "Redux", "TailwindCSS", "TMDB API", "Google Gemini"],
+    demoUrl: "https://tushar-netflix-gpt.vercel.app/",
+    githubUrl: "https://github.com/tushar11kumar2001/netflixGPT",
   },
 ];
 
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/tushar11kumar2001"
           >
             Check My Github <ArrowRight size={16} />
           </a>
