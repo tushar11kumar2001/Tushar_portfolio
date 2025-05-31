@@ -2,8 +2,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { NotFound } from "./pages/NotFound";
 import { Toaster } from "@/components/ui/toaster";
+import { useEffect } from "react";
 
 function App() {
+      
+  useEffect(()=>{localStorage.setItem("theme", "dark");},[])
   return (
     <>
       <Toaster />
