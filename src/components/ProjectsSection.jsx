@@ -7,19 +7,19 @@ const projects = [
     description: "E-library system for seamless book and user management.",
     image: "/projects/project1.png",
     tags: ["React", "TailwindCSS", "JavaScript","Node.js", "Express.js", "MongoDB","Redux"],
-    demoUrl: "#",
+    demoUrl: "https://github.com/tushar11kumar2001/library-management-system",
     githubUrl: "https://github.com/tushar11kumar2001/library-management-system",
   },
-  {
-    id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+  // {
+  //   id: 2,
+  //   title: "Orbit Analytics Dashboard",
+  //   description:
+  //     "Interactive analytics dashboard with data visualization and filtering capabilities.",
+  //   image: "/projects/project2.png",
+  //   tags: ["TypeScript", "D3.js", "Next.js"],
+  //   demoUrl: "#",
+  //   githubUrl: "#",
+  // },
   {
     id: 3,
     title: "PlayFlix",
